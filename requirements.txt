@@ -1,0 +1,48 @@
+# Core LLM & Agent Framework
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-openai==0.3.18
+langgraph==0.4.8
+
+# LLM Providers
+openai>=1.30.0          # DeepSeek uses OpenAI-compatible API
+
+# Vector DB
+qdrant-client==1.13.3
+langchain-qdrant==0.2.0
+
+# PDF Parsing
+llama-parse==0.6.4
+pypdf==5.4.0
+
+# Hybrid Search (BM25)
+rank-bm25==0.2.2
+
+# Embeddings
+sentence-transformers==4.1.0
+
+# Stock Data
+tushare==1.4.19
+akshare>=1.14.0
+jieba>=0.42.1
+
+# Web Search
+tavily-python==0.5.1
+
+# Python Sandbox
+e2b-code-interpreter==1.5.1
+
+# Long-term Memory
+mem0ai==0.1.102
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.6
+matplotlib==3.10.3
+mplfinance==0.12.10b0
+
+# HTTP & Utils
+httpx==0.28.1
+python-dotenv==1.1.0
+pydantic==2.11.5
+loguru==0.7.3
